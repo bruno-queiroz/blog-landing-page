@@ -77,7 +77,7 @@ const connectListData = {
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="bg-orange-400 p-4">
+    <header className="absolute w-full bg-transparent p-4">
       <div className="flex gap-4 max-w-[940px] w-full items-center flex-col justify-between lg:flex-row mx-auto">
         <div className="flex items-center justify-between w-full py-8 lg:w-[max-content] lg:mr-8">
           <img src={logoImg} alt="" />
@@ -104,7 +104,7 @@ const Header = () => {
           <div
             className={`gap-4 flex-col bg-white p-4 ${
               isMenuOpen ? "flex" : "hidden"
-            } lg:flex lg:flex-row lg:items-center lg:pr-0 lg:bg-orange-400 lg:text-white`}
+            } lg:flex lg:flex-row lg:items-center lg:pr-0 lg:bg-transparent lg:text-white`}
           >
             <NavList {...productListData} />
             <NavList {...companyListData} />
