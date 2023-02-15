@@ -2,7 +2,7 @@ import React from "react";
 
 const DesignedForTheFutureSection = () => {
   return (
-    <section className="flex flex-col gap-4 p-4 lg:p-8 py-8 lg:relative">
+    <section className="flex flex-col gap-4 p-4 lg:p-8 py-8 lg:relative max-w-[1440px] w-full mx-auto">
       <h2 className="font-semibold text-very-dark-blue text-2xl text-center lg:absolute lg:top-16 lg:right-[50%] lg:translate-x-[50%]">
         Designed for the future
       </h2>
