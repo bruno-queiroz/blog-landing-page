@@ -10,9 +10,23 @@
   background-size: auto;
 }
 
+.illustration-bg-img {
+  background-image: url("./assets/images/illustration-editor-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 345px;
+}
+
 @media (min-width: 1024px) {
   .main-bg-img {
     background-image: url("./assets/images/bg-pattern-intro-desktop.svg"),
       linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  }
+  .illustration-bg-img {
+    background-image: url("./assets/images/illustration-editor-desktop.svg");
+    background-size: cover;
+    background-position-x: left;
+    height: 620px;
   }
 }
