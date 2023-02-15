@@ -18,6 +18,14 @@
   height: 345px;
 }
 
+.state-of-art-bg-img {
+  background-image: url("./assets/images/bg-pattern-circles.svg"),
+    linear-gradient(to bottom, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 @media (min-width: 1024px) {
   .main-bg-img {
     background-image: url("./assets/images/bg-pattern-intro-desktop.svg"),
@@ -28,5 +36,8 @@
     background-size: cover;
     background-position-x: left;
     height: 620px;
+  }
+  .state-of-art-bg-img {
+    background-position: -50% 83%;
   }
 }
