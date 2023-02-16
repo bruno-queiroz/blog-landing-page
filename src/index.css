@@ -26,6 +26,13 @@
   background-size: auto;
 }
 
+.laptop-bg-img {
+  background-image: url("./assets/images/illustration-laptop-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 380px;
+}
+
 @media (min-width: 1024px) {
   .main-bg-img {
     background-image: url("./assets/images/bg-pattern-intro-desktop.svg"),
@@ -39,5 +46,10 @@
   }
   .state-of-art-bg-img {
     background-position: -50% 83%;
+  }
+  .laptop-bg-img {
+    background-image: url("./assets/images/illustration-laptop-desktop.svg");
+    background-size: cover;
+    height: 510px;
   }
 }
