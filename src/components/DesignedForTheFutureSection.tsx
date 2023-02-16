@@ -2,11 +2,11 @@ import React from "react";
 
 const DesignedForTheFutureSection = () => {
   return (
-    <section className="flex flex-col gap-4 p-4 lg:p-8 py-8 lg:relative max-w-[1440px] w-full mx-auto">
-      <h2 className="font-semibold text-very-dark-blue text-2xl text-center lg:absolute lg:top-16 lg:right-[50%] lg:translate-x-[50%]">
+    <section className="flex flex-col gap-4 p-4 lg:p-8 py-24 lg:relative max-w-[1440px] w-full mx-auto">
+      <h2 className="font-semibold text-very-dark-blue text-2xl mb-4 text-center lg:text-4xl lg:absolute lg:top-24 lg:right-[50%] lg:translate-x-[50%]">
         Designed for the future
       </h2>
-      <div className="lg:grid lg:grid-cols-2 gap-8">
+      <div className="lg:grid lg:grid-cols-2 gap-8 lg:mt-24">
         <div className="illustration-bg-img order-2 self-end" />
         <div className="flex flex-col gap-8 order-1 justify-center">
           <article>
