@@ -10,7 +10,7 @@ export const StateOfTheArtSection = () => {
         className="mt-8 object-cover sm:w-[580px] mx-auto lg:w-full"
       />
       <article className="flex flex-col gap-6 text-center px-8 pb-24 text-md lg:justify-center lg:text-left">
-        <h2 className="text-2xl font-semibold">
+        <h2 className="text-4xl font-semibold">
           State of the Art Infrastructure
         </h2>
         <p className="text-gray-300 max-w-[450px] w-full lg:max-w-full mx-auto lg:mx-0">
